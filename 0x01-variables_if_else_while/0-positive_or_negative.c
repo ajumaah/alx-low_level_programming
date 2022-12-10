@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/**
- * More header goes there
- */
+/*more header goes there */
+
 /*betty style doc for function main goes there */
 int main(void)
 {
@@ -18,7 +17,7 @@ int main(void)
 	}
 	else if (n > 0)
 	{
-	printf ("The number : %d is positive\n", rand());
+	printf("The number : %d is positive\n", rand());
 	}
 	else
 		printf("The number : %d is negative\n", rand());
