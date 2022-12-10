@@ -4,6 +4,8 @@
 /*more header goes there */
 
 /*betty style doc for function main goes there */
+
+/*Return: main 0 (Success) */
 int main(void)
 {
 	int n;
@@ -13,13 +15,13 @@ int main(void)
 	/*your code goes there */
 	if (n == 0)
 	{
-	printf("The number : %d is zero\n", rand());
+	printf("The number : %d is zero\n", n);
 	}
 	else if (n > 0)
 	{
-	printf("The number : %d is positive\n", rand());
+	printf("The number : %d is positive\n", n);
 	}
 	else
-		printf("The number : %d is negative\n", rand());
+		printf("The number : %d is negative\n",n);
 	return (0);
 }
