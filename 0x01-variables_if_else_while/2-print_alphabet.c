@@ -15,9 +15,9 @@
 
 int main(void)
 {
-	char i;
-	for (i = "a"; i <= "z"; i++)
-		putchar(i);
+	char alphabets;
+	for (alphabets = "a"; alphabets <= "z";)
+		putchar(alphabets++);
 	putchar("\n");
 	return (0);
 }
