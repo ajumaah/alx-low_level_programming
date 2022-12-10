@@ -15,11 +15,13 @@
 
 int main(void)
 {
-	int i;
+	int num;
+	num = 1;
 
-	while(i = 0; i <= 10; i++)
+	while (num <= 10)
 	{
 		printf("%d\n", i);
+		num++;
 	}
 	
 	return (0);
