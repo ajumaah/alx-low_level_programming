@@ -15,9 +15,11 @@
 
 int main(void)
 {
-	char alphabets;
-	for (alphabets = "a"; alphabets <= "z";)
-		putchar(alphabets++);
-	putchar("\n");
+	char alphabet;
+
+	for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
+		putchar(alphabet++);
+
+	putchar('\');
 	return (0);
 }
