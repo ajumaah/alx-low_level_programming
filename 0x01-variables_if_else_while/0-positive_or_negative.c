@@ -1,9 +1,3 @@
-/**
- * Tile: 0-positive_or_negative.c
- * Auth: Alfonse Juma
- * Date: Dec 10, 2022
- * Time: 12:53pm
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
