@@ -8,7 +8,7 @@
 
 /**
  * main - this is the main function
- * Description: A programe that prints the alphabet in lowercase using putchar only
+ * Description: A program that prints the alphabet in lowercase using putchar
  *
  * Return: Always 0 (Success)
  */
