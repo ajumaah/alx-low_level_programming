@@ -8,7 +8,7 @@
 
 /**
  * main - this is the main function
- * Description: prints the alphabet excludung q and e in lowercase using putchar
+ * Description: prints the alphabet without q and e in lowercase via putchar
  *
  * Return: Always 0 (Success)
  */
