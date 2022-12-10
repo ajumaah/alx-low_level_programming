@@ -15,7 +15,7 @@
 
 int main(void)
 {
-	int 0;
+	int i;
 
 	while(i = 0; i <= 10; i++)
 	{
