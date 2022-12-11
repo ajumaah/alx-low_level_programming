@@ -15,7 +15,7 @@
 
 int main(void)
 {
-	int (num1, num2);
+	int num1, num2;
 
 	while (num1 < 10)
 	{
