@@ -15,16 +15,21 @@
 
 int main(void)
 {
-	int num;
+	int (num1, num2);
 
-	while (num < 100)
+	while (num1 < 10)
 	{
-		putchar((num % 100) + '00');
-		num++;
-		if (num != 10 && num != 01)
-			continue;
-	putchar(',');
-	putchar(' ');
+		while (num2 = num1 + 1)
+		{
+			putchar((num1 % 10) + '0');
+			num1++;
+			putchar((num2 % 10) + '0');
+			num2++;
+			if (num1 == 8 && num2 == 9)
+				continue;
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
