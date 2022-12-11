@@ -19,7 +19,7 @@ int main(void)
 
 	while (num1 < 10)
 	{
-		while (num2 = num1 + 1)
+		if (num2 = num1 + 1)
 		{
 			putchar((num1 % 10) + '0');
 			num1++;
