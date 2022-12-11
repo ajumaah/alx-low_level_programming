@@ -17,14 +17,12 @@ int main(void)
 {
 	int num1, num2;
 
-	while (num1 < 10)
+	for (num1 = 0, num1 < 10, num++)
 	{
-		if (num2 = num1 + 1)
+		for (num2 = num1 + 1, num2 < 10, num2++)
 		{
 			putchar((num1 % 10) + '0');
-			num1++;
 			putchar((num2 % 10) + '0');
-			num2++;
 			if (num1 == 8 && num2 == 9)
 				continue;
 			putchar(',');
