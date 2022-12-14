@@ -15,7 +15,7 @@
  */
 void print_alphabet(void)
 {
-	char 't';
+	int t;
 
 	while (t <= z)
 	{
