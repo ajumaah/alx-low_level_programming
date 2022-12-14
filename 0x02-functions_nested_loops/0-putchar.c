@@ -1,21 +1,19 @@
 /**
- * print_comb.c
- *Auth: Alfonse Juma
- * Date: Dec 11, 2022
- * Time: 7:50 pm
+ * File: 0-putchar.c
+ * Auth: Alfonse Juma
+ * Date: Dec 14, 2022
+ * Time: 15:40 pm
  *
- */                                                            
-
+ */
 #include <stdio.h>
 #include "main.h"
+
 /**
- *
- * main - this is the main function
- * Description: prints all possible combination of sinSuccess)
+ * main- This is main function
+ * Description: Prints _putchar
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char *sh = "main";
