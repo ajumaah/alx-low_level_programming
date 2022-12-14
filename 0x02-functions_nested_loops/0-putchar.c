@@ -1,5 +1,6 @@
-/**                                               
- * Title: 9-print_comb.c                                        * Auth: Alfonse Juma
+/**
+ * print_comb.c
+ *Auth: Alfonse Juma
  * Date: Dec 11, 2022
  * Time: 7:50 pm
  *
@@ -17,7 +18,7 @@
 
 int main(void)
 {
-	char *sh = "_putchar";
+	char *sh = "main";
 
 	while (*sh)
 	{
