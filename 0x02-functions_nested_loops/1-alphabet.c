@@ -6,7 +6,6 @@
  *
  */
 #include <stdio.h>
-#include "main.h"
 
 /**
  * main- This is main function
