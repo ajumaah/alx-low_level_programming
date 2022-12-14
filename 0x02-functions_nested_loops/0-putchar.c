@@ -15,3 +15,8 @@
  * Return: Always 0 (Success)
  */
 
+int main(void)
+{
+	putchar('_puchar');
+	putchar('\n');
+}
