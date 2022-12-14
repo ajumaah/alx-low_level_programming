@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 /**
  * File: 0-putchar.c
  * Auth: Alfonse Juma
