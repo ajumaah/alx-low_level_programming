@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * File: 0-putchar.c
  * Auth: Alfonse Juma
@@ -5,7 +6,7 @@
  * Time: 16:40 pm
  *
  */
-#include "main.h"
+#include <stdio.h>
 /**
  * main- This is main function
  * Description: Prints alphabets in lower case
