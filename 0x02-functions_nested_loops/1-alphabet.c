@@ -17,10 +17,9 @@ void print_alphabet(void)
 {
 	int t;
 
-	while (t <= z)
+	for (t= a; t <= z; t++)
 	{
 		_putchar(t)
-			t++;
 	}
 	_putchar('\n');
 	return (0);
