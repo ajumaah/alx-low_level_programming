@@ -6,7 +6,8 @@
  *
  */
 #include <stdio.h>
-#include "main.h"
+#include <unistd.h>
+#include <main.h>
 
 /**
  * main- This is main function
@@ -16,12 +17,12 @@
  */
 int main(void)
 {
-	char *sh = "main";
+	char *ch = "main";
 
-	while (*sh)
+	while (*ch)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(*ch);
+		ch++;
 	}
 	_putchar('\n');
 	return (0);
