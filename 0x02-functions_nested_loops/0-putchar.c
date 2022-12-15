@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include 'main.h'
+#include "main.h"
 
 /**
  * main - this is the main function
@@ -11,7 +11,7 @@ int main(void)
 {
 	int 0;
 	for (i = 0; i < 5; i++)
-		putchar((n % 10) 'i');
-	putchar('\n');
+		_putchar(i);
+	_putchar('\n');
 	return (0);
 }
