@@ -1,1 +1,1 @@
-This leason we learn about C - Functions, nested loops
+This lesson we lern about C -Functions, nested loops
