@@ -1,19 +1,8 @@
 #include "main.h"
-
 /**
- * main - this is the main function
- * Description: 0-putchar.c
+ * main - This is  the main fuction
+ * Descript: prints _putchar and a new line
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-	char k[] = "_putchar";
-	int i;
-	for (i = 0; i < 9; i++)
-			{
-		putchar(k[i]);
-	}
-	putchar('\n');
-	return (0);
-}
+
