@@ -15,7 +15,6 @@ int print_last_digit(int nvl)
 	{
 		vld = (-1 * vld);
 	}
-	
 	_putchar(vld + '0');
 	return (vld);
 }
