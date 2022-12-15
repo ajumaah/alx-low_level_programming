@@ -10,8 +10,8 @@ int main(void)
 {
 	char k[] = "_putchar";
 	int i;
-	for (i = 0; i < 5; i++)
-	{
+	for (i = 0; i < 9; i++)
+			{
 		putchar(k[i]);
 	}
 	putchar('\n');
