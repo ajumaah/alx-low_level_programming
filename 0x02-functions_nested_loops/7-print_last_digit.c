@@ -2,20 +2,20 @@
 
 /**
  *print_last_digit - print the last digit
- * @vl: the number to print
+ * @nvl: the number to print
  * Return: the vale of the last digit
  */
-int print_last_digit(int vl)
+int print_last_digit(int nvl)
 {
-	int vl;
+	int vld;
 
-	v = (vl % 10);
+	vld = (nvl % 10);
 
-	if (v < 0)
+	if (vld < 0)
 	{
-		v = (-1 * v);
+		vld = (-1 * vld);
 	}
 	
-	_putchar(v + '0');
-	return (v);
+	_putchar(vld + '0');
+	return (vld);
 }
