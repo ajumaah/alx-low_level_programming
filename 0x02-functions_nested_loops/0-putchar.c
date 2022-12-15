@@ -8,9 +8,12 @@
  */
 int main(void)
 {
+	char k[] = "_putchar";
 	int i;
 	for (i = 0; i < 5; i++)
-		_putchar(i);
+	{
+		_putchar(k[i]);
+	}
 	_putchar('\n');
 	return (0);
 }
