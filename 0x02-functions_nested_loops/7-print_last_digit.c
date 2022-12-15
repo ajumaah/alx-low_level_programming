@@ -2,14 +2,14 @@
 
 /**
  *print_last_digit - print the last digit
- * @v: the number to print
+ * @vl: the number to print
  * Return: the vale of the last digit
  */
-int print_last_digit(int v)
+int print_last_digit(int vl)
 {
-	int v;
+	int vl;
 
-	v = (v % 10);
+	v = (vl % 10);
 
 	if (v < 0)
 	{
