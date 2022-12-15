@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,7 +8,7 @@
  */
 int main(void)
 {
-	int 0;
+	int i;
 	for (i = 0; i < 5; i++)
 		_putchar(i);
 	_putchar('\n');
