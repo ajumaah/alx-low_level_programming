@@ -12,8 +12,8 @@ int main(void)
 	int i;
 	for (i = 0; i < 5; i++)
 	{
-		_putchar(k[i]);
+		putchar(k[i]);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
