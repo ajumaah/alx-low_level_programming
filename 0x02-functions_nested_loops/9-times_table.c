@@ -12,6 +12,7 @@ void times_table(void)
 	{
 		for (col = 1; col <= 9; col++)
 		{
+			_putchar('0');
 			_putchar(',');
 			_putchar(' ');			
 			num = row * col;
