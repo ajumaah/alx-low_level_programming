@@ -6,7 +6,7 @@
  */
 void print_number(int n)
 {
-	int z, x, b, a y;
+	long z, x, b, a y;
 
 	x = n;
 	y = z = 1;
