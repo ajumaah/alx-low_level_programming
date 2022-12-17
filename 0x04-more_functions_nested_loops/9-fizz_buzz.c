@@ -20,12 +20,12 @@ int main(void)
 	{
 		if (a == 100)
 			printf("%s", b);
-		else if ((a % 3 == 0) && (i % 5 == 0))
-			printf("%s ", fb);
 		else if (a % 3 == 0)
 			printf("%s ", f);
 		else if (a % 5 == 0)
 			printf("%s ", b);
+		else if ((a % 3 == 0) && (i % 5 == 0))
+			printf("%s ", fb);
 		else
 			printf("%d ", a);
 	}
