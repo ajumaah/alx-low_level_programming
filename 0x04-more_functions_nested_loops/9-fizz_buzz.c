@@ -12,7 +12,7 @@
 int main(void)
 {
 	int a;
-	char Fizz, Buzz, FizzBuzz;
+	char "Fizz", "Buzz", "FizzBuzz";
 
 	for (a = 1; a <= 100; a++)
 	{
