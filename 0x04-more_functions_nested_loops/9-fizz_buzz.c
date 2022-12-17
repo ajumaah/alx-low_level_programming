@@ -19,9 +19,9 @@ int main(void)
 		if (a == 100)
 			printf("%s", Buzz);
 		else if ((a % 3 == 0) && (i % 5 == 0))
-			printf("%s ", FuzzBuzz);
+			printf("%s ", FizzBuzz);
 		else if (a % 3 == 0)
-			printf("%s ", Fuzz);
+			printf("%s ", Fizz);
 		else if (a % 5 == 0)
 			printf("%s ", Buzz);
 		else
