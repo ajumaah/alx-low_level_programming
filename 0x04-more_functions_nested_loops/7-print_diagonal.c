@@ -5,7 +5,7 @@
  * @n: line to be drawn
  * Return: a diagonal line
  */
-void print_diagnal(int n)
+void print_diagonal(int n)
 {
 	int x, y;
 
