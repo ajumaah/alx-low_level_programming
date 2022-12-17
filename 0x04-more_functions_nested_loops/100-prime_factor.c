@@ -13,7 +13,7 @@ int main(void)
 	for (p = 2; p < q; p++)
 	{
 		if (q % 1 == 0)
-			q = q /p;
+			q /= p;
 	}
 	printf("%li\n", q);
 	return (0);
