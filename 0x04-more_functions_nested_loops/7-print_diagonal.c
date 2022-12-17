@@ -7,7 +7,7 @@
  */
 void print_diagnal(int n)
 {
-	int x;
+	int x, y;
 
 	if (n <= 0)
 	{
@@ -17,6 +17,10 @@ void print_diagnal(int n)
 	{
 		for (x = 1; x <= n; x++)
 		{
+			for (y = 1; y < x; y++)
+			{
+				_putchar(' ');
+			}
 			_putchar('\');
 		}
 		_putchar('\n');
