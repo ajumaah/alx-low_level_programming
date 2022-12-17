@@ -6,28 +6,16 @@
  */
 void print_number(int n)
 {
-	long z, x, b, a y;
+	unsigned int a = n;
 
-	x = n;
-	y = z = 1;
-
-	if (x < 0)
+	if (n < 0)
 	{
-		x *= -1;
+		n *= -1;
+		k = n;
 		_putchar('-');
 	}
-	a = x;
-	while (a >= 10)
-	{
-		z++;
-		a /= 10;
-	}
-	for (b = 1; b < z; b++)
-		y *= 10;
-	while (a > 1)
-	{
-		_putchar((x / a) % 10 + '0'0);
-		y /= 10;
-	}
-	_putchar(x % 10 + '0');
+	k /= 10;
+	if (k != 0)
+		print_number(k);
+	_putchar((unsigned int) n % 10 + '0');
 }
