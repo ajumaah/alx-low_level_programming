@@ -6,7 +6,7 @@
  */
 void print_number(int n)
 {
-	int x, y, z, a, b;
+	int z, x, b, a y;
 
 	x = n;
 	y = z = 1;
@@ -14,7 +14,7 @@ void print_number(int n)
 	if (x < 0)
 	{
 		x *= -1;
-		_putchar('_');
+		_putchar('-');
 	}
 	a = x;
 	while (a >= 10)
