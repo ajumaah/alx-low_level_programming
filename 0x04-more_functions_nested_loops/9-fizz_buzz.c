@@ -12,7 +12,9 @@
 int main(void)
 {
 	int a;
-	char "Fizz", "Buzz", "FizzBuzz";
+	char Fizz[] = "Fizz";
+	char Buzz[] = "Buzz";
+	char FizzBuzz[] = "FizzBuzz";
 
 	for (a = 1; a <= 100; a++)
 	{
