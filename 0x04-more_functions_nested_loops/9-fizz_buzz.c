@@ -12,20 +12,18 @@
 int main(void)
 {
 	int a;
-	char f[] = "Fizz";
-	char b[] = "Buzz";
-	char fb[] = "FizzBuzz";
+	char Fizz, Buzz, FizzBuzz;
 
 	for (a = 1; a <= 100; a++)
 	{
 		if (a == 100)
-			printf("%s", b);
-		else if (a % 3 == 0)
-			printf("%s ", f);
-		else if (a % 5 == 0)
-			printf("%s ", b);
+			printf("%s", Buzz);
 		else if ((a % 3 == 0) && (a % 5 == 0))
-			printf("%s ", fb);
+			printf("%s ", FizzBuzz);
+		else if (a % 3 == 0)
+			printf("%s ", Fizz);
+		else if (a % 5 == 0)
+			printf("%s ", Buzz);
 		else
 			printf("%d ", a);
 	}
