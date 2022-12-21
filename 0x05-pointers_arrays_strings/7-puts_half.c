@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts_half - prints half of a string 
+ * puts_half - prints half of a string
  * @str: string to be halfed
  *
  * Return: void
@@ -18,7 +18,7 @@ void puts_half(char *str)
 	}
 	if (a % 2 == 1)
 	{
-		b = (a + 1) / 2;
+		b = (a - 1) / 2;
 		b += 1;
 	}
 	else
