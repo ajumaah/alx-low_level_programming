@@ -9,10 +9,11 @@
 
 int _strlen(char *s)
 {
-	char juma;	
+	char j;
+
 	for (; *s != '\0'; s++)
 	{
-		juma++;
+		j++;
 	}
-	return (juma);
+	return (j);
 }
