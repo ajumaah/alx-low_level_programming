@@ -15,5 +15,5 @@ int _strlen(char *s)
 	{
 		juma++;
 	}
-	return(juma)
+	return(juma);
 }
