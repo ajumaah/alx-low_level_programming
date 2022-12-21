@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void puts(char *str)
+void puts22(char *str)
 {
 	int a = 0;
 	int b;
