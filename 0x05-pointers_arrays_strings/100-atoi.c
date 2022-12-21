@@ -12,13 +12,10 @@ int _atoi(char *s)
 	int a, b, c;
 	short d;
 
-	a = b;
-	b = c;
-	c = d;
-	d = 0;
+	a = b = c = d = 0;
 	b = -1;
 
-	while (s[a] = '\0')
+	while (s[a] != '\0')
 	{
 		if (s[a] == '-')
 			b *= -1;
