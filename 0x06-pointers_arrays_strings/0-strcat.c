@@ -5,9 +5,9 @@
  * @dest: first string
  * @src: second string
  *
- * Return: void
+ * Return: concanated string
  */
-char *_strcat(int n; char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int len = 0, a = 0;
 
@@ -15,12 +15,12 @@ char *_strcat(int n; char *dest, char *src)
 	{
 		len++;
 	}
-	while (a < n && src[a])
+	while (src[a] != 0)
 	{
 		dest[len] = src[a];
 		len++;
 		a++;
 	}
-	dest[len + n + 1] = '\0';
+	dest[len] = '\0';
 	return (dest);
 }
