@@ -3,7 +3,7 @@
 /**
  * _strncat - a function that concanates two strings
  * @dest: string one
- * @src string two
+ * @src: string two
  * @n: byte from src
  *
  * Return: the resulting string dest
