@@ -11,7 +11,7 @@ char *cap_string(char *n)
 {
 	int j, k;
 	int caps = 32;
-	int quots[] = {',', ';', '.', '?', '"'};
+	int quots[] = {',', ';', '.', '?', '"', '(',')', '{','}', ' ', '\n', 't'};
 
 	for (j = 0; n[j] != '\0'; j++)
 	{
