@@ -1,28 +1,23 @@
 #include "main.h"
 
 /**
- * cap_string - a function that capitalizes all words in a string
- * @n: string to be capitalized
+ * cap_string - capitalizes all word in a string
+ * @n: The string to be capitalized
  *
- * Return: Always 0 (Success)
+ * Return: capitalized string
  */
 
 char *cap_string(char *n)
 {
-	int j = 0, k = 0;
-	int letters = 13;
-	int quots[] = {',', ';', '.', '?', '"', '(', ')', '{', '}', ' ', '\n', '\t'};
+	int quots = 0;
 
-	while (n[j])
+	while (n[quots])
 	{
-		k = 0;
-		while (k < letters)
-		{
-			if ((j == 0 || n[j - 1] == quots[j]) && (n[j] >= 97 && n[j] <= 122))
-				n[j] = n[j] - 32;
-			k++;
-		}
-		j++;
+		while (!(n[quots] >= 'a' && n[quots] <= 'z'))
+			quots++;
+		if(n[quots - 1] == ' '  || n[quots - 1] == '\t' || n[quots - 1] == '\n' || n[quots - 1] == ',' || n[quots - 1] == '.' || n[quots - 1] == '.' || n[quots - 1] == '!' || n[quots - 1] == '?' || n[quots - 1] == '"' || n[quots - 1] == '(' || n[quots - 1] == ')' || n[quots - 1] == '{' || n[quots - 1] == '}' || quots == 0)
+			n[quots] = n[quots] - 32;
+		quots++;
 	}
 	return (n);
 }
