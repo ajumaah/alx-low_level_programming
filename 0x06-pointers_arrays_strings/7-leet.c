@@ -15,11 +15,11 @@ char *leet(char *n)
 
 	for (j = 0; n[j] != '\0'; j++)
 	{
-		for (k = 0; k <= 9; k++)
+		for (k = 0; k < 10; k++)
 		{
 			if (n[j] == letters[k])
 			{
-				n[j] = replaced_by[k /2];
+				n[j] = replaced_by[k / 2];
 				k = 10;
 			}
 		}
