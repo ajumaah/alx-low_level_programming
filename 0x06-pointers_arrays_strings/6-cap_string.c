@@ -9,27 +9,20 @@
 
 char *cap_string(char *n)
 {
-	int j, k;
-	int caps = 32;
+	int j = 0, k = 0;
+	int letters = 13;
 	int quots[] = {',', '!', ';', '.', '?', '"', '(', ')', '{', '}', ' ', '\n', 't'};
 
-	for (j = 0; n[j] != '\0'; j++)
+	while (n[j])
 	{
-		while (n[j] >= 'a' && n[j] <= 'z')
-			quots++;
+		k = 0;
+		while (k < letters)
 		{
-			n[j] = n[j] - caps;
+			if ((j == 0 || n[j - 1] == quots[j]) && (n[j] >= 97 && n[j] <= 122))
+				n[j] = n[j] - 32;
+			k++;
 		}
-		caps = 0;
-
-		for (k = 0; k <= 12; k++)
-		{
-			if (n[j] == quots[k])
-			{
-				k = 12;
-				caps = 32;
-			}
-		}
+		j++;
 	}
 	return (n);
 }
