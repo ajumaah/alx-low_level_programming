@@ -15,7 +15,7 @@ char *cap_string(char *n)
 	{
 		while (!(n[quots] >= 'a' && n[quots] <= 'z'))
 			quots++;
-		if(n[quots - 1] == ' '  || n[quots - 1] == '\t' || n[quots - 1] == '\n' || n[quots - 1] == ',' || n[quots - 1] == '.' || n[quots - 1] == '.' || n[quots - 1] == '!' || n[quots - 1] == '?' || n[quots - 1] == '"' || n[quots - 1] == '(' || n[quots - 1] == ')' || n[quots - 1] == '{' || n[quots - 1] == '}' || quots == 0)
+		if (n[quots - 1] == ' '  || n[quots - 1] == '\t' || n[quots - 1] == '\n' || n[quots - 1] == ',' || n[quots - 1] == '.' || n[quots - 1] == '.' || n[quots - 1] == '!' || n[quots - 1] == '?' || n[quots - 1] == '"' || n[quots - 1] == '(' || n[quots - 1] == ')' || n[quots - 1] == '{' || n[quots - 1] == '}' || quots == 0)
 			n[quots] = n[quots] - 32;
 		quots++;
 	}
