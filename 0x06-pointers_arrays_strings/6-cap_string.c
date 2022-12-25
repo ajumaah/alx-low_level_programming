@@ -11,11 +11,12 @@ char *cap_string(char *n)
 {
 	int j, k;
 	int caps = 32;
-	int quots[] = {',', ';', '.', '?', '"', '(', ')', '{', '}', ' ', '\n', 't'};
+	int quots[] = {',', '!', ';', '.', '?', '"', '(', ')', '{', '}', ' ', '\n', 't'};
 
 	for (j = 0; n[j] != '\0'; j++)
 	{
-		if (n[j] >= 'a' && n[j] <= 'z')
+		while (n[j] >= 'a' && n[j] <= 'z')
+			quots++;
 		{
 			n[j] = n[j] - caps;
 		}
