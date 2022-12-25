@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_number - prints char
- * @n: integer
- *
- * Return: Always 0 (Success)
- *
+ * print_number - print numbers chars
+ * @n: integer params
+ * Return: 0
  */
 
 void print_number(int n)
@@ -17,11 +15,13 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar('-');
-		n *= -1;
+		j = -n;
 	}
-	if (j / 10)
+
+	if (j / 10 != 0)
 	{
 		print_number(j / 10);
 	}
 	_putchar((j % 10) + '0');
 }
+
