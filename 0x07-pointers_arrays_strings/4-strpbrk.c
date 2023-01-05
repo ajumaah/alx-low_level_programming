@@ -21,5 +21,5 @@ char *_strpbrk(char *s, char *accept)
 				return (s + a);
 		}
 	}
-	return (NULL);
+	return (s);
 }
