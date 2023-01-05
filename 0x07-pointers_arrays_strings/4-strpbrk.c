@@ -11,15 +11,15 @@
 char *_strpbrk(char *s, char *accept)
 {
 	int a;
+	int b;
 
-	while (*s)
+	for (a = 0; s[a] != '\0'; a++)
 	{
-		for (a = 0; accept[a]; a++)
+		for (b = 0; accept[b] != '\0'; b++)
 		{
-			if (*s == accept[a])
-				return (s);
+			if (s[a] == accept[b])
+				return (s + a);
 		}
-		s++;
 	}
 	return (NULL);
 }
