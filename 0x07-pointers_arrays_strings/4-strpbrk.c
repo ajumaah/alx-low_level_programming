@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _strpbrk - a function that searches a string for any set of byte
  * @s: first string
