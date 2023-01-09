@@ -12,7 +12,7 @@
 int sqrt_prime_odd(int a, int n);
 int _sqrt_recursion(int n)
 {
-	int sqr;
+	int sqrt;
 
 	if (n < 0)
 		return (-1);
