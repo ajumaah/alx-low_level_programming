@@ -2,13 +2,14 @@
 #include "main.h"
 
 /**
- * _sqr_recursion - retuns a natural square root of a number
+ * _sqrt_recursion - retuns a natural square root of a number
  * @n: the number to be squared
+ * @a: the prime or odd number to be checked
  *
  * Return: Always 0 (Success)
  */
 
-int sqr_odd(int a, int n);
+int sqrt_prime_odd(int a, int n);
 int _sqrt_recursion(int n)
 {
 	int sqr;
@@ -21,20 +22,20 @@ int _sqrt_recursion(int n)
 	{
 		if (n / 2 == 2 || n == 2)
 			return (2);
-		sqr = _sqrt_recursion(n / 2);
-		if (n / sqr == sqr)
-			return (sqr);
-		else if (sqr > 1)
-			return (sqr * 2);
+		sqrt = _sqrt_recursion(n / 2);
+		if (n / sqrt == sqrt)
+			return (sqrt);
+		else if (sqrt > 1)
+			return (sqrt * 2);
 		return (-1);
 	}
 	else
 		{
-			return (sqr_odd(n, n - 2));
+			return (sqrt_prime_odd(n, n - 2));
 		}
 }
 /**
- * sqr_odd - check for prime  odd numbers
+ * sqrt_prime_odd - check for prime  odd numbers
  * @a: the prime or odd number to be checked
  * @n: the number to find its square root
  *
