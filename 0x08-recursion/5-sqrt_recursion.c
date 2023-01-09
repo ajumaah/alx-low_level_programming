@@ -41,12 +41,12 @@ int _sqrt_recursion(int n)
  *
  * Return: square root
  */
-int sqr_odd(int a, int n)
+int sqrt_prime_odd(int a, int n)
 {
 	if (n < 0)
 		return (-1);
 	else if (a == n * n)
 		return (n);
 	else
-		return (sqr_odd(a, n - 2));
+		return (sqrt_prime_odd(a, n - 2));
 }
