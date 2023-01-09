@@ -11,6 +11,8 @@
 int sqr_odd(int a, int n);
 int _sqrt_recursion(int n)
 {
+	int sqr;
+
 	if (n < 0)
 		return (-1);
 	else if (n <= 1 && n >= 0)
@@ -25,13 +27,12 @@ int _sqrt_recursion(int n)
 		else if (sqr > 1)
 			return (sqr * 2);
 		return (-1);
-		else
+	}
+	else
 		{
 			return (sqr_odd(n, n - 2));
 		}
-	}
 }
-
 /**
  * sqr_odd - check for prime  odd numbers
  * @a: the prime or odd number to be checked
