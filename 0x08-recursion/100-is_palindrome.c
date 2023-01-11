@@ -10,10 +10,11 @@
 
 int is_palindrome(char *s)
 {
-	int a = 0;
+	int a;
+	a = 0;
 
-	if (*s == a)
-		return (0);
-	else
+	if (*s != a)
 		return (1);
+	else
+		return (0);
 }
