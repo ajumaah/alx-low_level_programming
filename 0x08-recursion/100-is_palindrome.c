@@ -2,13 +2,13 @@
 #include "main.h"
 
 /**
- * is_palidrome - returns one if a string is palidrome else
+ * is_palindrome - returns one if a string is palidrome else
  * @s: the string
  *
  * Return: 1 if string is palidrome and 0 if not
  */
 
-int is_palidrome(char *s)
+int is_palindrome(char *s)
 {
 	int a = 0;
 
