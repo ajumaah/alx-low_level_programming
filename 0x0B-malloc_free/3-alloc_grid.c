@@ -32,7 +32,7 @@ int **alloc_grid(int width, int height)
 			free(grid);
 			return (NULL);
 		}
-		for (column = 0; column < width; column++)
+		for (column = 0; column <= width; column++)
 		{
 			grid[row][column] = 0;
 		}
