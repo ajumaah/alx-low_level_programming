@@ -41,6 +41,5 @@ char *str_concat(char *s1, char *s2)
 		j++;
 		s2++;
 	}
-	free(str);
 	return (str);
 }
