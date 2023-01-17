@@ -12,35 +12,34 @@
 
 char *str_concat(char *s1, char *s2)
 {
-	int a = 0, b = 0, count = 0;
-	unsigned int j;
-	char *newstr = NULL;
+	int str1, str2, j = 0;
+	char *array;
 
-	if (s1 == NULL && s2 == NULL)
+	if (s1 == NULL || s2 == NULL)
 	{
 		s1 = "";
 		s2 = "";
 	}
-	while (s1[a] != '\0' && s2[b] != '\0')
+	for (str1 = 0; str1 <= *s1; str1++)
 	{
-		a++;
-		b++;
 	}
-	newstr = (char *)malloc((a + b + 1) *sizeof(char));
-	if (newstr == NULL)
+	for (str2 = 0; str2 <= *s2; str2++)
 	{
+	}
+	array = malloc(sizeof(char) * (str1 + str2 + 1));
+	if (array == NULL)
 		return (NULL);
-	}
-	for (, s1[j] != '\0',)
+	while (*s1)
 	{
+		array[j] = *s1;
 		j++;
-		newstr[j] = s1[j];
+		s1++;
 	}
-	for (, s2[count] != '\0',)
+	while (*s2)
 	{
-		count++;
-		newstr[j] = s2[count];
+		array[j] = *s2;
 		j++;
+		s2++;
 	}
-	return (newstr);
+	return (array);
 }
