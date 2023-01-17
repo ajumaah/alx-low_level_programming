@@ -21,8 +21,10 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 != NULL && s2 != NULL)
 	{
-		for (str1 = 0; s1[str1]; str1++);
-		for (str2 = 0; s2[str2]; str2++);
+		for (str1 = 0; s1[str1]; str1++)
+			;
+		for (str2 = 0; s2[str2]; str2++)
+			;
 	}
 	str = malloc(sizeof(char) * (str1 + str2 + 1));
 	if (str == NULL)
