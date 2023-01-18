@@ -9,21 +9,15 @@
  */
 int main(int argc, char *argv[])
 {
-	int j, add = 0;
+	int j, k;
 
-	if (argc < 1)
-		return (0);
-
-	for (j = 1; j < argc; j++)
+	if (argc == 3)
 	{
-		if (!atoi(argv[j]))
-		{
-			printf("%s\n", "Error");
-			return (1);
-		}
-		add = add + atoi(argv[j]);
+		j = atoi(argv[1]);
+		k = atoi(argv[2]);
+		printf("%d\n", j *k);
+		return (0);
 	}
-	printf("%d\n", add);
-
+	printf("Error\n");
 	return (1);
 }
