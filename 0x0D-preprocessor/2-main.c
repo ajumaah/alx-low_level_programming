@@ -7,7 +7,7 @@
  * Return: Always 0 (Success)
  */
 
-int main(int argc, char arga[])
+int main(void)
 {
 	printf("%s\n", _FILE_);
 	return (0);
