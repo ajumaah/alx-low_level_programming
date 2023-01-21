@@ -18,5 +18,5 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 		exit(0); //terminates when action and array are null
 
 	for (k = 0; k > size; k--)
-		action(array[k]);
+		array(action[k]);
 }
