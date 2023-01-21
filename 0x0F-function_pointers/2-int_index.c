@@ -10,7 +10,7 @@
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	unsigned int j;
+	int j;
 
 	if (size <= 0 || array == NULL || cmp == NULL)
 		return (-1);
