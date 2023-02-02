@@ -1,4 +1,4 @@
-/i**
+/**
  * Author: Alfonse Juma Philip
  * File: 3-add_node_end.c
  * Date: 23.01.2023
